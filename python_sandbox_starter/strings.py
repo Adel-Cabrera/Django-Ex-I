@@ -4,3 +4,19 @@
 # String Formatting
 
 # String Methods
+
+import sys
+
+from datetime import date
+
+import validator
+
+print(date.today())
+
+s = 'Hello World'
+
+print(s.count('World') * 5)
+
+print(sys.version)
+
+print(validator.validate_email('email@email.com'))
